@@ -1,0 +1,15 @@
+# I want to ignore EVERYTHING except source files. No linking stuff, no project stuff, etc.
+*
+!*/
+!.gitignore
+
+
+# Some source is csharp source
+!*.cs
+
+# Some source is python source
+!*.py
+
+# Some source is c++ source
+!*.cpp
+!*.hpp
